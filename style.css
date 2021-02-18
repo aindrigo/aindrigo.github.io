@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans';
+}
+.main{
+    background: linear-gradient(72deg,#6f32a8,#ac3ecf);
+    color: white;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.main h1{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+body{
+    background-color: #222222;
+}
+.info{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 10;
+}
+.nav nav{
+    text-align: center;
+}
+.nav nav a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    transition: all 0.5s;
+}
+.nav nav a:hover{
+    background-color: darkblue;
+}
